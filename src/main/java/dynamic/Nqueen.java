@@ -6,4 +6,6 @@ package dynamic;
  * @Description:
  */
 public class Nqueen {
+
+
 }
