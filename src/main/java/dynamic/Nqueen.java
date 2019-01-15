@@ -7,6 +7,4 @@ package dynamic;
  */
 public class Nqueen {
 
-
-
 }
