@@ -29,7 +29,7 @@ public class Nqueen {
         }
         int res = 0;
         for (int j = 0;j<n;j++){
-            if (isValid(record,i,j)){
+            if (isValid(record,i,j)){  //使用列，先从（0，0）开始摆放皇后，【接着看第二行（i+1）能不能摆放】，再从（0，1）开始摆放皇后...
                 record[i] = j;
                 res += process(i+1,record,n);
             }
