@@ -93,7 +93,7 @@ public class LinkedTest {
         Node pre = null;
         Node next = null;
         while (cur1 != null && cur2 != null) {
-            if (cur1.val < cur2.val) {
+            if (cur1.val <= cur2.val) {
                 pre = cur1;
                 cur1 = cur1.next;
             }else {
